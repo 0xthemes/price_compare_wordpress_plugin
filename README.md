@@ -1,2 +1,2 @@
-# price_compare_wordpress_plugin
+# Price Compare WordPress Plugin
 We gives you simple price comparison table as WordPress plugin.
