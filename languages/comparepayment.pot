@@ -1,0 +1,168 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Compare Payment\n"
+"POT-Creation-Date: 2018-09-22 12:39+0530\n"
+"PO-Revision-Date: 2018-09-22 12:40+0530\n"
+"Last-Translator: \n"
+"Language-Team: zozothemes\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c;_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_ex:1,2c;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;"
+"esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: compare-payment.php:3
+msgid "Compare Payment."
+msgstr ""
+
+#: compare-payment.php:39
+msgid "Payment Currency"
+msgstr ""
+
+#: compare-payment.php:43
+msgid "Range Slider Minimum Value"
+msgstr ""
+
+#: compare-payment.php:47
+msgid "Range Slider Maximum Value"
+msgstr ""
+
+#: compare-payment.php:51
+msgid "Range Step Value"
+msgstr ""
+
+#: compare-payment.php:55
+msgid "Range Default Value"
+msgstr ""
+
+#: compare-payment.php:59
+msgid "Save"
+msgstr ""
+
+#: compare-payment.php:62
+msgid "Loader"
+msgstr ""
+
+#: function.php:7 function.php:8
+msgid "Compare Payment"
+msgstr ""
+
+#: function.php:29
+msgid "Payments Type"
+msgstr ""
+
+#: function.php:30
+msgid "Payment"
+msgstr ""
+
+#: function.php:31
+msgid "Add New"
+msgstr ""
+
+#: function.php:32
+msgid "Add New Payment"
+msgstr ""
+
+#: function.php:33
+msgid "Edit Payment"
+msgstr ""
+
+#: function.php:34
+msgid "New Payment"
+msgstr ""
+
+#: function.php:35
+msgid "Payments"
+msgstr ""
+
+#: function.php:36
+msgid "View Payment"
+msgstr ""
+
+#: function.php:37
+msgid "Search Payments"
+msgstr ""
+
+#: function.php:38
+msgid "No payments found"
+msgstr ""
+
+#: function.php:39
+msgid "No payments found in Trash"
+msgstr ""
+
+#: function.php:86
+msgid "Is This Your Own Payment Method"
+msgstr ""
+
+#: function.php:88
+msgid "No"
+msgstr ""
+
+#: function.php:89
+msgid "Yes"
+msgstr ""
+
+#: function.php:94
+msgid "Transaction Fee"
+msgstr ""
+
+#: function.php:96
+msgid ""
+"Enter payment gateway transaction fees. Don't mention currency. Example: 2.9"
+msgstr ""
+
+#: function.php:100
+msgid "Additional Fee"
+msgstr ""
+
+#: function.php:102
+msgid ""
+"Enter payment gateway transaction additional fees. Don't mention currency. "
+"Example: 0.3"
+msgstr ""
+
+#: function.php:106
+msgid "Minimum Transaction Fee"
+msgstr ""
+
+#: function.php:108
+msgid ""
+"Enter your minimum transaction fees. Don't mention currency. Example: 0.03"
+msgstr ""
+
+#: function.php:112
+msgid "Card Body Text"
+msgstr ""
+
+#: function.php:114
+msgid "Example: YOU PAY"
+msgstr ""
+
+#: function.php:118
+msgid "Card Bottom Text"
+msgstr ""
+
+#: function.php:120
+msgid "Example: 2.9% + 30&#162;"
+msgstr ""
+
+#: function.php:187
+msgid "Minmum"
+msgstr ""
+
+#: function.php:194
+msgid "Maximum"
+msgstr ""
+
+#: function.php:195
+msgid "Unlimited"
+msgstr ""
