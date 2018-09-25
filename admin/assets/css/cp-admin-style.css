@@ -1,0 +1,101 @@
+.compare-payment-admin-wrap {
+    max-width: 100%;
+    padding: 20px 30px 0 0;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.form-group {
+    margin-bottom: 1rem;
+}
+textarea {
+    overflow: auto;
+    resize: vertical;
+}
+label {
+    display: inline-block;
+    margin-bottom: .5rem;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+	cursor: pointer;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
+
+.compare-payment-form {
+    position: relative;
+	padding: 20px;
+}
+.cp-loader-wrap {
+    background: rgba(255, 255, 255, 0.8);
+    height: 100%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    width: 100%;
+	opacity: 0;
+	visibility: hidden;
+	
+	-webkit-transition: all ease 0.35s;
+	-moz-transition: all ease 0.35s;
+	transition: all ease 0.35s;
+}
+.cp-loader-wrap.process {
+	opacity: 1;
+	visibility: visible;
+}
+.cp-loader-wrap > img {
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+#compare-payment-metabox .form-group {
+    padding: 20px;
+	margin-bottom: 0;
+}
+select.form-control {
+    height: 40px;
+}
+button, select {
+    text-transform: none;
+}
