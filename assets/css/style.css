@@ -1,0 +1,76 @@
+/* Ranger slider styles */
+.rangeslider--horizontal  {
+    height: 12px;
+    border-radius: 10px;
+}
+.rangeslider {
+    margin: 20px 0;
+    position: relative;
+    -ms-touch-action: none;
+    touch-action: none;
+}
+.rangeslider--horizontal .rangeslider__fill {
+    height: 12px;
+    border-radius: 10px;
+    top: 0;
+	background: transparent;
+}
+.rangeslider--horizontal  .rangeslider__handle {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    top: -13px;
+}
+.rangeslider .rangeslider__handle {
+    background: #fff;
+    cursor: pointer;
+    display: inline-block;
+    position: absolute;
+    -webkit-box-shadow: 0 2px 4px rgba(0,0,0,.06), 0 2px 24px 9px rgba(0,0,0,.04);
+    box-shadow: 0 2px 4px rgba(0,0,0,.06), 0 2px 24px 9px rgba(0,0,0,.04);
+    background-image: url(../images/ranger-mark.png);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: 14px 20px;
+}
+.rangeslider__handle::after {
+	background-image: none;
+}
+.rangeslider__tooltip__value {
+    left: 0;
+    padding: 6px;
+    position: absolute;
+    text-align: center;
+    top: -13px;
+    transform: translateX(-28%) translateY(-100%);
+    width: auto;
+	background: #333;
+	color: #fff;
+	border-radius: 6px;
+}
+.rangeslider--horizontal .rangeslider__tooltip__value:after {
+	width: 0; 
+	height: 0; 
+	border-left: 8px solid transparent;
+	border-right: 8px solid transparent;
+	border-top: 8px solid #333;
+	content: "";
+	position: absolute;
+	bottom: -8px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	
+}
+.compare-others-wrap img {
+    max-width: 170px;
+}
+.card-text.payment-val > * {
+    display: inline-block;
+}
+.card.compare-payment img {
+	padding-top: 20px;
+}
+.cheap-cal-wrap > p {
+    font-size: 11px;
+}
